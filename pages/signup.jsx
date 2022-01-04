@@ -4,8 +4,8 @@ const Login = () => {
 	return (
 		<div className="h-full bg-login bg-cover bg-no-repeat grid justify-center items-center">
 			<div className="bg-black bg-opacity-30 p-8 grid grid-rows-[auto,1fr,auto] justify-center items-center gap-8 rounded-xl">
-				<div className="">
-					<h1 className="text-white text-center text-3xl">"You are not Alone"</h1>
+				<div>
+					<h1 className="text-white text-center text-3xl">You are not Alone</h1>
 				</div>
 
 				<div className="grid gap-4">

@@ -11,7 +11,7 @@ const About = () => {
 					<p>Cavite State University General Trias City Campus</p>
 					<p>Guidance and Counseling</p>
 				</div>
-				<p className="px-2 lg:px-0">Develop and Understand your thought patterns. The center's aim is to help people who ask for help, advices
+				<p className="px-2 lg:px-0">Develop and Understand your thought patterns. The centers aim is to help people who ask for help, advices
 					and guidance. Usually an emotional crisis can strike us either because of some past or recent events that trigger it, the reasons may be hidden deep down in your consciousness.
 				</p>
 			</div>

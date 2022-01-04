@@ -40,7 +40,7 @@ const Facilitators = () => {
 					profile={"/hayag.png"}
 					name="Ms. Shain Custodio Hayag"
 					degree="Bachelor of Science in hospitality Management"
-					degree2="Diploma in Hote & Restaurant Management"
+					degree2="Diploma in Hotel and Restaurant Management"
 					email="shainechayag@cvsu.pcu.edu.ph"
 				/>
 
