@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const Login = () => {
 	return (
-		<div className="h-full bg-login bg-cover bg-no-repeat grid justify-center items-center px-10">
+		<div className="h-full bg-login bg-cover bg-no-repeat grid justify-center items-center p-10">
 			<div className="bg-black bg-opacity-30 p-8 grid grid-rows-[auto,1fr,auto] gap-8 rounded-xl">
 				<div>
 					<h1 className="text-white text-center text-2xl md:text-3xl">Always by your Side</h1>

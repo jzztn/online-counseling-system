@@ -6,13 +6,13 @@ const Card = ({ profile, name, degree, degree2, email }) => {
 			</div>
 
 			<div className="flex flex-col mt-8">
-				<h1 className="text-xl font-semibold tracking-wider mb-6">{name}</h1>
-				<h1 className="text-sm font-extralight mx-6">{degree}</h1>
-				<h1 className="text-sm font-extralight mt-2 mx-6">{degree2}</h1>
+				<h1 className="text-xl font-semibold tracking-wide mb-6">{name}</h1>
+				<h1 className="text-sm font-light mx-6">{degree}</h1>
+				<h1 className="text-sm font-light mt-2 mx-6">{degree2}</h1>
 			</div>
 
 			<div>
-				<h1 className="text-sm font-extralight mt-20 mx-6">{email}</h1>
+				<h1 className="text-sm font-extralight mt-16 mx-6">{email}</h1>
 			</div>
 		</div>
 	)

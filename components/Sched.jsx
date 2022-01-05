@@ -8,13 +8,13 @@ const Sched = ({ profile, name, day, day2, time, time2 }) => {
 			<h1 className="text-lg font-semibold mb-4 text-center lg:text-left">{name}</h1>
 
 			<div className="flex flex-col text-center lg:items-center">
-				<h1 className="text-sm font-extralight">{day}</h1>
-				<h1 className="text-sm font-extralight">{day2}</h1>
+				<h1 className="text-sm font-light">{day}</h1>
+				<h1 className="text-sm font-light">{day2}</h1>
 			</div>
 
 			<div className="flex flex-col text-center lg:items-center lg:gap-2">
-				<h1 className="text-sm font-extralight">{time}</h1>
-				<h1 className="text-sm font-extralight">{time2}</h1>
+				<h1 className="text-sm font-light">{time}</h1>
+				<h1 className="text-sm font-light">{time2}</h1>
 			</div>
 		</div>
 	)

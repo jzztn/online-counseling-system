@@ -7,8 +7,8 @@ const Hero = () => {
 			<div>
 				<div className="grid gap-8 xl:ml-32 px-10">
 					<div className="flex flex-col gap-3 text-center ">
-						<h1 className="text-6xl lg:text-7xl font-medium lg:font-extralight tracking-wide">A simple ways</h1>
-						<p className="text-lg font-thin tracking-wider">to bring you peace and harmony to your life</p>
+						<h1 className="text-6xl lg:text-7xl font-light tracking-wide">A simple ways</h1>
+						<p className="text-lg font-light tracking-wider">to bring you peace and harmony to your life</p>
 					</div>
 
 					<div className="grid gap-2 md:justify-center">

@@ -9,7 +9,7 @@ const NavBar = () => {
 					<img src="/logo.png" alt="cvsu logo" className="w-14 h-14 lg:w-20 lg:h-20" />
 				</div>
 
-				<div className="flex flex-col text-xs md:text-md lg:text-lg">
+				<div className="flex flex-col text-sm md:text-md lg:text-lg">
 					<h1>CvSU General Trias City</h1>
 					<h1>Guidance and Counseling</h1>
 				</div>
