@@ -6,7 +6,7 @@ const Appointment = () => {
 		<div className="h-full grid grid-cols-[auto,1fr]">
 			<SideBar />
 
-			<div className="grid justify-center gap-20 py-16">
+			<div className="grid justify-center gap-20 py-16 px-10">
 				<div className="grid justify-center items-center gap-20 lg:grid-cols-2 xl:grid-cols-3">
 					<AppointmentCard
 						profile={"/camalig.png"}

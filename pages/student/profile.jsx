@@ -3,15 +3,15 @@ import { PencilIcon } from '@heroicons/react/outline'
 
 const Profile = () => {
 	return (
-		<div className="h-full grid grid-cols-[auto,1fr]">
+		<div className="h-full grid grid-cols-[auto,1fr] gap-4">
 			<SideBar />
 
-			<div className="grid grid-rows-[auto,1fr,auto] p-10">
+			<div className="grid grid-rows-[auto,1fr,auto] px-10">
 				<div className="border-b-gray border-[1px] border-t-0 border-l-0 border-r-0">
 					<h1 className="text-2xl font-semibold tracking-wider mb-2">De Ramos, Rancesca</h1>
 				</div>
 
-				<div className="flex flex-col gap-8 mt-20">
+				<div className="flex flex-col gap-8">
 					<div className="flex flex-col gap-2">
 						<h1 className="text-xs font-semibold text-button">First Name</h1>
 						<div className="group flex gap-10">
