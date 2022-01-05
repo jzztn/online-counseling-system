@@ -2,8 +2,8 @@ import Card from "../components/Card"
 
 const Facilitators = () => {
 	return (
-		<div className="grid justify-center gap-20 my-32">
-			<h1 className="text-2xl tracking-wider">Guidance Facilitators</h1>
+		<div className="grid justify-center gap-20 my-32 px-10">
+			<h1 className="text-xl lg:text-2xl tracking-wide">Guidance Facilitators</h1>
 
 			<div className="grid justify-center items-center gap-20 lg:grid-cols-2 xl:grid-cols-3">
 				<Card

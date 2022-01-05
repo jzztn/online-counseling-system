@@ -19,6 +19,9 @@ module.exports = {
         'how': "url('/how-it-works-bg.png')",
         'login': "url('/login-bg.png')",
         'sigunp': "url('/signup-bg.png')"
+      },
+      dropShadow: {
+        'lg': '0 35px 35px FFC069',
       }
     },
   },
