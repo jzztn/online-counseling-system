@@ -3,7 +3,7 @@ import { PaperAirplaneIcon } from '@heroicons/react/solid'
 
 const Chat = () => {
 	return (
-		<div className="h-full grid grid-cols-[auto,1fr]">
+		<div className="h-full grid grid-cols-[auto,1fr] py-10">
 			<SideBar />
 
 			<div className="grid grid-rows-[auto,1fr,auto] rounded-lg px-10">

@@ -3,7 +3,7 @@ import SideBar from "../../components/navbar/SideBar"
 
 const Appointment = () => {
 	return (
-		<div className="h-full grid grid-cols-[auto,1fr]">
+		<div className="h-full grid grid-cols-[auto,1fr] py-10">
 			<SideBar />
 
 			<div className="grid justify-center gap-20 py-16 px-10">
