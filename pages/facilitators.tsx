@@ -11,21 +11,21 @@ const Facilitators = () => {
 					name="Sir. Jonel Camalig"
 					degree="Bachelor of Science in Psychology"
 					degree2="Bachelor of Science in Information Technology"
-					email="jonel.camalig@cvsu.pcu.edu.ph"
+					email="jonel.camalig@cvsu.edu.ph"
 				/>
 
 				<Card
 					profile={"/bay.png"}
 					name="Ms. Keithlyn Bay"
 					degree="Bachelor of Science in Psychology"
-					email="keithlynbay@cvsu.pcu.edu.ph"
+					email="keithlynbay@cvsu.edu.ph"
 				/>
 
 				<Card
 					profile={"/labiang.png"}
 					name="Sir. John Reil Labiang"
 					degree="Bachelor of Science in Psychology"
-					email="john.labiang@cvsu.pcu.edu.ph"
+					email="john.labiang@cvsu.edu.ph"
 				/>
 
 				<Card
@@ -33,7 +33,7 @@ const Facilitators = () => {
 					name="Dr. Louziela P. Masana"
 					degree="Bachelor of Science in Psychology"
 					degree2="Bachelor of Science in Information Technology"
-					email="louzielamasana@cvsu.pcu.edu.ph"
+					email="louzielamasana@cvsu.edu.ph"
 				/>
 
 				<Card
@@ -41,14 +41,14 @@ const Facilitators = () => {
 					name="Ms. Shain Custodio Hayag"
 					degree="Bachelor of Science in hospitality Management"
 					degree2="Diploma in Hotel and Restaurant Management"
-					email="shainechayag@cvsu.pcu.edu.ph"
+					email="shainechayag@cvsu.edu.ph"
 				/>
 
 				<Card
 					profile={"/siarez.png"}
 					name="Ms. Efrelhet Siarez"
 					degree="Bachelor of Science in Psychology"
-					email="elfrelhetsiarez@cvsu.pcu.edu.ph"
+					email="elfrelhetsiarez@cvsu.edu.ph"
 				/>
 			</div>
 		</div>

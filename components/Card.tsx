@@ -1,4 +1,4 @@
-const Card = ({ profile, name, degree, degree2, email }) => {
+const Card = ({ profile, name, degree, degree2, email }: any) => {
 	return (
 		<div className="bg-gradient-to-b from-green-100 to-lightgreen grid grid-flow-rows gap-4 text-center py-10 rounded-lg">
 			<div>

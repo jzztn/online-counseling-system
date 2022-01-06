@@ -1,4 +1,4 @@
-const AppointmentCard = ({ profile, name, degree, degree2, sched, sched2 }) => {
+const AppointmentCard = ({ profile, name, degree, degree2, sched, sched2 }: any) => {
 	return (
 		<div className="bg-gradient-to-b from-green-100 to-lightgreen grid grid-flow-rows gap-4 text-center p-10 rounded-lg">
 			<div>

@@ -1,12 +1,12 @@
-import AppointmentCard from "../../components/AppointmentCard"
-import SideBar from "../../components/navbar/SideBar"
+import AppointmentCard from "../../../components/AppointmentCard"
+import SideBar from "../../../components/navbar/SideBar"
 
 const Appointment = () => {
 	return (
 		<div className="h-full grid grid-cols-[auto,1fr] py-10">
 			<SideBar />
 
-			<div className="grid justify-center gap-20 py-16 px-10">
+			<div className="grid justify-center gap-20 px-10">
 				<div className="grid justify-center items-center gap-20 lg:grid-cols-2 xl:grid-cols-3">
 					<AppointmentCard
 						profile={"/camalig.png"}

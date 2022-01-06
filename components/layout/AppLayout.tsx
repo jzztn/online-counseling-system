@@ -1,7 +1,7 @@
 import Footer from "../footer/Footer"
 import NavBar from "../navbar/NavBar"
 
-const AppLayout = ({ children }) => {
+const AppLayout = ({ children }: any) => {
 	return (
 		<div className="h-screen grid grid-rows-[auto,1fr,auto]">
 			<nav>

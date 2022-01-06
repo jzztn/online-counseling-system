@@ -1,14 +1,14 @@
-import SideBar from "../../components/navbar/SideBar"
+import SideBar from "../../../components/navbar/SideBar"
 import { PencilIcon } from '@heroicons/react/outline'
 
 const Profile = () => {
 	return (
-		<div className="h-screen grid grid-cols-[auto,1fr] gap-4 py-10">
+		<div className="h-screen grid grid-cols-[auto,1fr] py-10">
 			<SideBar />
 
 			<div className="grid grid-rows-[auto,1fr,auto] gap-20 px-10">
 				<div className="border-b-gray border-[1px] border-t-0 border-l-0 border-r-0">
-					<h1 className="text-2xl font-semibold tracking-wide mb-2">De Ramos, Rancesca</h1>
+					<h1 className="text-xl font-semibold tracking-wide mb-2">De Ramos, Rancesca</h1>
 				</div>
 
 				<div className="flex flex-col gap-8">
@@ -19,6 +19,7 @@ const Profile = () => {
 							<PencilIcon className="h-5 w-5 hidden text-button group-hover:block" />
 						</div>
 					</div>
+
 					<div className="flex flex-col gap-2">
 						<h1 className="text-xs font-semibold text-button">Last Name</h1>
 						<div className="group flex gap-10">
@@ -26,6 +27,7 @@ const Profile = () => {
 							<PencilIcon className="h-5 w-5 hidden text-button group-hover:block" />
 						</div>
 					</div>
+
 					<div className="flex flex-col gap-2">
 						<h1 className="text-xs font-semibold text-button">CvSU Email</h1>
 						<div className="group flex gap-10">
@@ -33,6 +35,7 @@ const Profile = () => {
 							<PencilIcon className="h-5 w-5 hidden text-button group-hover:block" />
 						</div>
 					</div>
+
 					<div className="flex flex-col gap-2">
 						<h1 className="text-xs font-semibold text-button">Password</h1>
 						<div className="group flex gap-10">
@@ -40,6 +43,7 @@ const Profile = () => {
 							<PencilIcon className="h-5 w-5 hidden text-button group-hover:block" />
 						</div>
 					</div>
+
 				</div>
 
 				<div>

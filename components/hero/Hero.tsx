@@ -12,8 +12,8 @@ const Hero = () => {
 					</div>
 
 					<div className="grid gap-2 md:justify-center">
-						<Link href={'/signup'}><button className="py-5 w-full bg-white rounded-sm tracking-wider text-sm md:text-md hover:bg-button hover:text-white transition-colors duration-200 md:px-24">SIGN UP</button></Link>
-						<Link href={'/login'}><button className="py-5 w-full bg-button rounded-sm tracking-wider text-sm md:text-md text-white transition-colors duration-200 md:px-24">LOG IN</button></Link>
+						<Link href={'/signup'}><button className="py-5 w-full bg-white rounded-sm tracking-wider text-sm md:text-md hover:bg-button hover:text-white transition- duration-200 md:px-24">SIGN UP</button></Link>
+						<Link href={'/login'}><button className="py-5 w-full bg-button rounded-sm tracking-wider text-sm md:text-md text-white md:px-24 hover:font-semibold transition-all duration-500">LOG IN</button></Link>
 					</div>
 				</div>
 			</div>
