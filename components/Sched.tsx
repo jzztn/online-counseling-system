@@ -1,4 +1,4 @@
-const Sched = ({ profile, name, day, day2, time, time2 }) => {
+const Sched = ({ profile, name, day, day2, time, time2 }: any) => {
 	return (
 		<div className="bg-gradient-to-b from-green-100 to-lightgreen rounded-lg grid grid-flow-rows md:grid-cols-[1fr,1fr,1fr,1fr] gap-6 items-center p-10">
 			<div>
