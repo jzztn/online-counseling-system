@@ -13,7 +13,7 @@ const Login = () => {
 						<input
 							type={"text"}
 							placeholder="First Name"
-							className="border-none outline-none  py-4 pl-3  rounded-md w-96  placeholder:text-opacity-20 placeholder:text-sm"
+							className="border-none outline-none  py-4 pl-3  rounded-md w-full placeholder:text-opacity-20 placeholder:text-sm"
 						/>
 
 						<div className="text-red-400 text-xs mt-1 tracking-wide">This field should not be empty</div>
