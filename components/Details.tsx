@@ -9,7 +9,7 @@ const Details = ({ lastName, firstName, email, schedule }: any) => {
 				<div className="text-center px-4 py-4 tracking-wide xl:border-l-gray xl:border-b-0 xl:border-r-0 xl:border-t-0 xl:border-[1px]">{schedule}</div>
 			</div>
 
-			<Link href={'/users/professors/chat'}><button className="bg-button py-4 px-10 text-white text-sm tracking-wider rounded-sm hover:font-semibold transition-all duration-500">CHAT</button></Link>
+			<Link href={'/chatbox'}><button className="bg-button py-4 px-10 text-white text-sm tracking-wider rounded-sm hover:font-semibold transition-all duration-500">CHAT</button></Link>
 		</div>
 	)
 }

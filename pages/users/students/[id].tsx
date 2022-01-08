@@ -1,10 +1,10 @@
-import SideBar from "../../../components/navbar/SideBar"
 import { PencilIcon } from '@heroicons/react/outline'
+import StudentNavbar from '../../../components/navbar/StudentNavbar'
 
 const Profile = () => {
 	return (
-		<div className="h-screen grid grid-cols-[auto,1fr] py-10">
-			<SideBar />
+		<div className="h-full grid grid-rows-[auto,1fr] gap-20 py-10">
+			<StudentNavbar />
 
 			<div className="grid grid-rows-[auto,1fr,auto] gap-20 px-10">
 				<div className="border-b-gray border-[1px] border-t-0 border-l-0 border-r-0">

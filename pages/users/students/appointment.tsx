@@ -1,10 +1,10 @@
 import AppointmentCard from "../../../components/AppointmentCard"
-import SideBar from "../../../components/navbar/SideBar"
+import StudentNavbar from "../../../components/navbar/StudentNavbar"
 
 const Appointment = () => {
 	return (
-		<div className="h-full grid grid-cols-[auto,1fr] py-10">
-			<SideBar />
+		<div className="h-full grid grid-rows-[auto,1fr] gap-20 py-10">
+			<StudentNavbar />
 
 			<div className="grid justify-center gap-20 px-10">
 				<div className="grid justify-center items-center gap-20 lg:grid-cols-2 xl:grid-cols-3">

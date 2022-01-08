@@ -9,7 +9,8 @@ module.exports = {
         button: '#3BAF9F',
         sideBar: '#8fbc8f',
         lightgreen: '#d4e5c5',
-        gray: '#dee0e2'
+        gray: '#dee0e2',
+        message: '#BBBBBB'
       },
       fontFamily: {
         primary: ['Poppins', 'sans-serif']

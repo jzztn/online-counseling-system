@@ -22,7 +22,7 @@ const SideBar = () => {
 					<ul className="flex flex-col gap-8 w-72 mb-96">
 						<Link href={'/users/students/home'}><h1 className="cursor-pointer text-white hover:bg-white hover:bg-opacity-20 w-full py-4 pl-16 transition-all duration-500">Edit Profile</h1></Link>
 						<Link href={'/users/students/appointment'}><h1 className="cursor-pointer text-white hover:bg-white hover:bg-opacity-20 w-full py-4 pl-16 transition-all duration-500">Set Appointment</h1></Link>
-						<Link href={'/users/students/chat'}><h1 className="cursor-pointer text-white hover:bg-white hover:bg-opacity-20 w-full py-4 pl-16 transition-all duration-500">Chat</h1></Link>
+						<Link href={'/users/students/chat/'}><h1 className="cursor-pointer text-white hover:bg-white hover:bg-opacity-20 w-full py-4 pl-16 transition-all duration-500">Chat</h1></Link>
 					</ul>
 
 					<Link href={'/'}><button className="cursor-pointer text-white hover:bg-white hover:bg-opacity-20 w-full py-4 text-left pl-16 transition-all duration-500">LOG OUT</button></Link>
